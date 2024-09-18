@@ -1,4 +1,3 @@
-<!-- File: exercise.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,14 +7,15 @@
     <title>2024 Subaru Crosstrek | Charlotte, NC</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-
-    <!-- Header Section -->
     <header class="navbar navbar-default navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
-                <a href="#" class="navbar-brand">Subaru Crosstrek 2024</a>
+                <a href="#" class="navbar-brand">
+                    <img src="./landing-page-images/logoSubaru.png" alt="Subaru Logo">
+                </a>
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
@@ -42,40 +42,86 @@
             </div>
         </div>
     </section>
-    <section id="features" class="features-section">
+    <section id="exterior-highlights" class="exterior-section">
         <div class="container">
-            <h2 class="section-title">Features</h2>
+            <h2 class="section-title">Exterior Highlights</h2>
+            <p class="section-description">The 2024 Subaru Crosstrek combines bold styling with practical design. Available in a variety of eye-catching colors, the Crosstrek stands out with its rugged and sporty exterior, tailored for both urban streets and off-road adventures.</p>
             <div class="row">
-                <div class="col-md-4 feature-box">
-                    <img src="./landing-page-images/crosstrek2.png" alt="Engine Image" class="img-responsive">
-                    <h3>Extra Power & Fun</h3>
-                    <p>The 2.5-liter SUBARU BOXER engine offers 182 horsepower for an exciting and responsive drive.</p>
+                <div class="col-md-6">
+                    <figure>
+                        <img src="./landing-page-images/crosstrek.png" alt="Gray Subaru Crosstrek exterior" class="img-responsive">
+                        <figcaption>
+                            <h3>Bold Gray Finish</h3>
+                            <p>The sleek gray exterior emphasizes the Crosstrek's aggressive yet refined stance, perfect for both city drives and outdoor adventures.</p>
+                        </figcaption>
+                    </figure>
                 </div>
-                <div class="col-md-4 feature-box">
-                    <img src="./landing-page-images/crosstrek.png" alt="Exterior Image" class="img-responsive">
-                    <h3>Sporty Exterior</h3>
-                    <p>Distinctive design with gunmetal accents and exclusive dark gray wheels.</p>
-                </div>
-                <div class="col-md-4 feature-box">
-                    <img src="./landing-page-images/crosstrek3.jpg" alt="Interior Image" class="img-responsive">
-                    <h3>Modern Interior</h3>
-                    <p>Comfortable and durable interior with StarTex® water-repellent upholstery and yellow accent trim.</p>
+                <div class="col-md-6">
+                    <figure>
+                        <img src="./landing-page-images/crosstrek2.png" alt="Yellow Subaru Crosstrek exterior" class="img-responsive">
+                        <figcaption>
+                            <h3>Vibrant Yellow Accent</h3>
+                            <p>For those looking to make a statement, the bright yellow finish offers a bold look that reflects the Crosstrek's energetic performance.</p>
+                        </figcaption>
+                    </figure>
                 </div>
             </div>
         </div>
     </section>
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="row">
+                <article class="col-md-4 feature-box">
+                    <figure>
+                        <img src="./landing-page-images/crosstrek10.jpg" alt="Engine of Subaru Crosstrek" class="img-responsive">
+                        <figcaption>
+                            <h3>Extra Power, Capability, and Fun</h3>
+                            <p>The 2.5-liter SUBARU BOXER engine offers 182 horsepower for an exciting and responsive drive.</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="col-md-4 feature-box">
+                    <figure>
+                        <img src="./landing-page-images/crosstrek6.jpg" alt="Sporty exterior of Subaru Crosstrek with dark gray wheels" class="img-responsive">
+                        <figcaption>
+                            <h3>Sporty Exterior Design</h3>
+                            <p>Distinctive design with gunmetal accents and exclusive dark gray wheels.</p>
+                        </figcaption>
+                    </figure>
+                </article>
+                <article class="col-md-4 feature-box">
+                    <figure>
+                        <img src="./landing-page-images/crosstrek3.jpg" alt="Modern interior of Subaru Crosstrek with StarTex upholstery" class="img-responsive">
+                        <figcaption>
+                            <h3>Modern Interior</h3>
+                            <p>Comfortable and durable interior with StarTex® water-repellent upholstery and yellow accent trim.</p>
+                        </figcaption>
+                    </figure>
+                </article>
+            </div>
+        </div>
+    </section>    
     <section id="reviews" class="reviews-section">
         <div class="container">
             <h2 class="section-title">Customer Reviews</h2>
-            <p><strong>4.39</strong> (74 Reviews)</p>
-            <div class="review-box">
-                <p>"Amazing car with great performance! The Crosstrek's new engine makes it more fun to drive." - John D.</p>
-            </div>
-            <div class="review-box">
-                <p>"Super safety features and a comfortable ride. Highly recommend!" - Sarah W.</p>
+            <p class="rating-summary">
+                <strong class="rating-score">4.39</strong> 
+                <span class="rating-stars">★★★★☆</span> 
+                (74 Reviews)
+            </p>
+            <div class="reviews-grid">
+                <div class="review-box">
+                    <p class="review-text">"Amazing car with great performance! The Crosstrek's new engine makes it more fun to drive."</p>
+                    <p class="review-author">- John D.</p>
+                </div>
+                <div class="review-box">
+                    <p class="review-text">"Super safety features and a comfortable ride. Highly recommend!"</p>
+                    <p class="review-author">- Sarah W.</p>
+                </div>
             </div>
         </div>
-    </section>
+    </section>    
     <section id="gallery" class="gallery-section">
         <div class="container">
             <h2 class="section-title">Gallery</h2>
@@ -85,9 +131,6 @@
                 </div>
                 <div class="col-md-3">
                     <img src="./landing-page-images/crosstrek5.jpg" alt="Crosstrek Image 2" class="img-responsive">
-                </div>
-                <div class="col-md-3">
-                    <img src="./landing-page-images/crosstrek6.jpg" alt="Crosstrek Image 3" class="img-responsive">
                 </div>
                 <div class="col-md-3">
                     <img src="./landing-page-images/crosstrek7.jpg" alt="Crosstrek Image 4" class="img-responsive">
@@ -101,32 +144,35 @@
                     <img src="./landing-page-images/crosstrek9.jpg" alt="Crosstrek Image 6" class="img-responsive">
                 </div>
                 <div class="col-md-3">
-                    <img src="./landing-page-images/crosstrek10.jpg" alt="Crosstrek Image 7" class="img-responsive">
-                </div>
-                <div class="col-md-3">
                     <img src="./landing-page-images/crosstrek11.jpg" alt="Crosstrek Image 8" class="img-responsive">
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Contact Section -->
     <section id="contact" class="contact-section">
         <div class="container">
             <h2 class="section-title">Contact Us</h2>
-            <p>Sales: <a href="tel:5558775434">555-877-5434</a></p>
-            <p>Service: <a href="tel:5558775435">555-877-5435</a></p>
-            <p><a href="/hours.aspx">1326 SE Enterprise, Charlotte, NC 28204</a></p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>Sales: <a href="tel:5558775434">555-877-5434</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <p>Service: <a href="tel:5558775435">555-877-5435</a></p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p><a href="/hours.aspx">1326 SE Enterprise, Charlotte, NC 28204</a></p>
+                </div>
+            </div>
         </div>
-    </section>
-
-    <!-- Footer Section -->
+    </section>    
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 Subaru Crosstrek | Charlotte, NC</p>
         </div>
     </footer>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="script.js"></script>

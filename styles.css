@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #003f87;
+    border-color: transparent;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.hero {
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.hero-content p {
+    font-size: 20px;
+}
+
+.features-section, .reviews-section, .contact-section, .gallery-section {
+    padding: 50px 0;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.img-responsive{
+    height: 240px;
+    width: 426px;
+    object-fit: cover;
+}
+
+.gallery-section img {
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #003f87;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
